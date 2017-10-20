@@ -7,4 +7,4 @@ The player is given a bill total and the tipping rate. The player must then calc
 * Adjustable difficulty settings
 * Persistent high scores.
 
-[Click this ling to visit the app's Android page.] (https://play.google.com/store/apps/details?id=com.danm551.tippinggame)
+[Click this ling to visit the app's Android page] (https://play.google.com/store/apps/details?id=com.danm551.tippinggame)
