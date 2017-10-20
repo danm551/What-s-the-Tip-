@@ -1,0 +1,129 @@
+<resources>
+    <!-- General -->
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!-- Unsorted -->
+    <string-array name="drawerOptions">
+        <item>Rules</item>
+        <item>Settings</item>
+        <item>About</item>
+        <item>Credits</item>
+    </string-array>
+    <string name="drawerOpen">Open Navigation Drawer</string>
+    <string name="drawerClose">Close Navigation Drawer</string>
+    <string name="app_name">What\'s the Tip?</string>
+    <string name="splash_title">What\'s the tip?</string>
+    <string name="splash_start">START</string>
+    <string name="copyright">\u00a9 Ernesto Martinez</string>
+    <string name="newline">\n</string>
+    <string name="dollar_sign">$</string>
+    <string name="NAN">That is not a number.</string>
+    <string name="plus_sign">+</string>
+    <string name="minus_sign">-</string>
+    <string name="question_prefix">"The service was "</string>
+    <string name="quality_lacking">lacking</string>
+    <string name="quality_good">good</string>
+    <string name="quality_excellent">excellent</string>
+    <string name="question_suffix">\nWhat\'s the tip?!?</string>
+    <string name="results_string_1">"Your tip was "</string>
+    <string name="results_string_2">"Meal : $"</string>
+    <string name="results_string_3">" service : "</string>
+    <string name="results_string_4">%\n\n</string>
+    <string name="results_string_5">"Proper tip : $"</string>
+    <string name="results_string_6">"\nYour tip : $"</string>
+    <string name="results_string_7">" (%1$.2f%%) \n\n"</string>
+    <string name="results_string_8">"Difference : "</string>
+    <string name="results_string_9">"$%.2f\n"</string>
+    <string name="results_string_10">"\n\nFinal Results"\n</string>
+    <string name="results_string_11">"\nOverpaid : $%.2f\n"</string>
+    <string name="results_string_12">"Underpaid : $%.2f\n"</string>
+    <string name="results_string_13">"Total difference : "</string>
+    <string name="results_string_14">"$%.2f\n"</string>
+    <string name="results_string_15">"Final Score : "</string>
+    <string name="results_string_16">"$%.2f"</string>
+    <string name="results_string_17">"-$%.2f"</string>
+    <string name="results_low">low\n\n</string>
+    <string name="results_equal">exact\n\n</string>
+    <string name="results_high">high\n\n</string>
+
+    <!--MainActivity-->
+    <string name="settingDrawerTitle">Options</string>
+    <string name="rulesDialogList">
+        \u2023 Locate tipping rate
+        \n\n\u2023 Locate total
+        \n\n\u2023 Calculate the proper tip
+        \n\n\u2023 Submit the tip
+        \n\n\u2023 Repeat for 5 rounds
+        \n\n\u2023 Aim for a final score of zero
+    </string>
+    <string name="rulesDialogTitle">RULES</string>
+    <string name="rulesDialogCheckbox">Don\'t show again</string>
+    <string name="rulesDialogBtn">GOT IT</string>
+    <string name="playBtn">PLAY</string>
+    <string name="hiScoresBtn">HI SCORES</string>
+    <string name="action_exit">Are you sure you want to exit?</string>
+
+
+    <!--QuestionResultsActivity-->
+    <string name="newHiScore">\nNEW HI SCORE</string>
+    <string name="hiScoreBtn">HI SCORE</string>
+    <string name="continueBtn">CONTINUE</string>
+    <string name="exitBtn">EXIT</string>
+
+    <!--GameActivity-->
+    <string name="roundNumber">ROUND %d\n\n\n</string>
+    <string name="billTotal">Your bill: $%.2f</string>
+    <string name ="toastInputTooLarge">That tip is too big!</string>
+    <string name ="toastInputEmpty">You did not enter a tip</string>
+    <string name="endGame">Are you sure you want to exit the current game?</string>
+
+    <!-- RulesFragment -->
+    <string name="rulesTitle">Rules of the Game\n</string>
+    <string name="rulesList">
+        \u2023 Locate tipping rate
+        \n\n\u2023 Locate total
+        \n\n\u2023 Calculate the proper tip
+        \n\n\u2023 Submit the tip
+        \n\n\u2023 Repeat for 5 rounds
+        \n\n\u2023 Aim for a final score of zero
+    </string>
+
+    <!-- AboutFragment -->
+    <string name="aboutTitle">About\n</string>
+    <string name="aboutInfo">Author: Ernesto Daniel Martinez\n\nFor comments, bugs, ideas, job offers,
+    and delicious Hot Pockets recipes, please contact me at RedClawSoftware@gmail.com.</string>
+
+    <!-- CreditsFragment -->
+    <string name="creditsInfo">Credits\n\n
+        Full Frame Shot of Eye\nBy Vladislav Reshetnyak\npexels.com/u/vladislav-reshetnyak-66283\n\n
+        Open Neon Sign\nBy Janice Lee\nhttps://unsplash.com/@guacaholeymoley\n\n
+        Cappuccino\nBy StockSnap\nhttps://pixabay.com/en/users/StockSnap-894430\n\n
+        Ambience, London Street, A.wav\nBy InspectorJ\nhttps://freesound.org/people/InspectorJ\n\n
+        Restaurant.mp3\n
+        By Milton Paredes\n
+        https://freesound.org/people/milton\n\n
+        Cash_Register.mp3\nBy kiddpark\nhttps://freesound.org/people/kiddpark\n\n
+        Bell-Blip.wav\nBy looppool\nhttps://freesound.org/people/looppool\n\n
+        Wallet Icon\n
+        By https://logomakr.com\n\n
+        Font-Righteous\nBy Astigmatic@Google\nhttps://fonts.google.com/specimen/Righteous
+        </string>
+
+    <!-- SettingsFragment -->
+    <string name="toastHiScoresErased">Hi scores have been reset</string>
+    <string name="toastSettingsReset">Settings have been reset</string>
+    <string name="soundCheckbox">Sound</string>
+    <string name="ambientSoundCheckbox">Ambient Sound</string>
+    <string name="difficultyTextView">Difficulty</string>
+    <string name="difficultyRadioBtn1">Easy</string>
+    <string name="difficultyRadioBtn2">Normal</string>
+    <string name="difficultyRadioBtn3">Hard</string>
+    <string name="resetSettingsBtn">Reset Settings</string>
+    <string name="resetHiScoresBtn">Reset Hi Scores</string>
+
+    <!--HiScoresFragment-->
+    <string name="emptyList">NOTHING TO SEE HERE</string>
+    <string name="hiScoresFragTitle">TOP 5</string>
+    <string name="hiScoresFragBackBtn">BACK</string>
+</resources>

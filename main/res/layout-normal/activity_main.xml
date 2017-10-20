@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/defaultMainActivityFrame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/image_open">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="100dp"
+                android:text="@string/splash_title"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textIsSelectable="false"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_play"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/shape_button_orange"
+                android:onClick="startGame"
+                android:text="@string/playBtn"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button_hi_scores"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="100dp"
+                android:background="@drawable/shape_button_orange"
+                android:onClick="showHiScores"
+                android:text="@string/hiScoreBtn"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/text_copyright"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/copyright"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/frame_drawer_placeholder"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start">
+
+        <LinearLayout
+            android:layout_width="240dp"
+            android:layout_height="match_parent">
+
+            <ListView
+                android:id="@+id/list_drawer"
+                android:layout_width="240dp"
+                android:layout_height="match_parent"
+                android:background="#ffeeeeee"
+                android:divider="?android:attr/dividerHorizontal"
+                android:dividerHeight="5px"> <!--rule exception - must use px -->
+            </ListView>
+        </LinearLayout>
+    </FrameLayout>
+</android.support.v4.widget.DrawerLayout>

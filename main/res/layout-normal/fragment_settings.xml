@@ -1,0 +1,117 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:name="frame_settings"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:background="#ffeeeeee">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:divider="?android:attr/dividerHorizontal"
+        android:showDividers="middle">
+
+        <CheckBox
+            android:id="@+id/check_sound"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soundCheckbox"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:buttonTint="@color/orange"/>
+
+        <CheckBox
+            android:id="@+id/check_ambient_sound"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ambientSoundCheckbox"
+            android:textSize="20sp"
+            android:padding="10dp"
+            android:buttonTint="@color/orange"/>
+
+
+        <TextView
+            android:id="@+id/text_difficulty_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/difficultyTextView"
+            android:textSize="20sp"
+            android:textAlignment="center"/>
+
+        <RadioGroup
+            android:id="@+id/radio_difficulty"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="10dp">
+
+            <RadioButton
+                android:id="@+id/radio_option_easy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/difficultyRadioBtn1"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/shape_button_unclicked"
+                android:button="@null"
+                android:layout_marginRight="1dp"
+                android:layout_marginLeft="1dp"/>
+
+            <RadioButton
+                android:id="@+id/radio_option_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/difficultyRadioBtn2"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/shape_button_unclicked"
+                android:button="@null"
+                android:layout_marginEnd="1dp"/>
+
+            <RadioButton
+                android:id="@+id/radio_option_hard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/difficultyRadioBtn3"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:background="@drawable/shape_button_unclicked"
+                android:button="@null"
+                android:layout_marginEnd="1dp"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/button_reset_settings"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/resetSettingsBtn"
+            android:background="@drawable/shape_button_orange"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="10dp"/>
+
+        <Button
+            android:id="@+id/button_reset_hi_scores"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="@string/resetHiScoresBtn"
+            android:background="@drawable/shape_button_orange"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginRight="1dp"
+            android:layout_marginLeft="1dp" />
+
+    </LinearLayout>
+
+</FrameLayout>
