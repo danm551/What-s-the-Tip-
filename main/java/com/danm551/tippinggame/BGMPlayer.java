@@ -20,7 +20,7 @@ class BGMPlayer{
     }
 
     /**
-     * Prepares bgm file using prepareAsync, then calls for play when ready.
+     * Prepares bgm file using prepareAsync, then calls for play when ready
      */
     void play(){
         Thread thread = new Thread(){
