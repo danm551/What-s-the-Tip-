@@ -1,6 +1,5 @@
 package com.danm551.tippinggame;
 
-
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
